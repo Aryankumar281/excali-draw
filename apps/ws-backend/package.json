@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "jsonwebtoken": "^9.0.2",
-    "ws": "^8.18.3"
+    "ws": "^8.18.3",
+    "@repo/db":"workspace:*"
   }
 }
