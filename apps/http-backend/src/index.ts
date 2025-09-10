@@ -79,8 +79,7 @@ app.post("/signin", async (req, res) => {
       {
         userId: user.id,
       },
-      JWT_SECRET,
-      { expiresIn: "1h" }
+      JWT_SECRET
     );
 
     res.json({
@@ -161,4 +160,5 @@ app.get("/room/:slug", async (req, res) => {
         room
     })
 })
+
 app.listen(3001);
